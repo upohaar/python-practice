@@ -37,3 +37,6 @@ print(b.lower())
 print(b.strip())
 print(b.replace('Hello','Bye'))
 print(b.split("W"))
+ 
+
+ 
