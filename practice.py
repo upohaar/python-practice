@@ -2,7 +2,6 @@ class Car:
   def __init__(self, brand, model):
     self.brand = brand
     self.model = model
-
 car1 = Car("Toyota", "Corolla")
 
 print(car1.brand)
@@ -19,6 +18,7 @@ plt.scatter(x, y)
 plt.show()
 
 
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import dendrogram, linkage
@@ -30,5 +30,4 @@ data = list(zip(x, y))
 
 linkage_data = linkage(data, method='ward', metric='euclidean')
 dendrogram(linkage_data)
-
 plt.show()
